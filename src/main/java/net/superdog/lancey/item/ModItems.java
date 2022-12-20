@@ -17,7 +17,7 @@ public class ModItems {
 
     public static final Item CHOCO_ICE_CREAM = registerItem(
             "choco_ice_cream",
-            new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build())),
+            new StewItem(new Item.Settings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build())),
             ModItemGroup.LANCEYS_MOD);
 
 

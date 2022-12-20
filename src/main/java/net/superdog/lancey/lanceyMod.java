@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 
 public class lanceyMod implements ModInitializer {
 
-	//test one//
+
     public static final String MOD_ID = "lancey";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 

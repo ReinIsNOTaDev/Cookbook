@@ -1,6 +1,7 @@
 package net.superdog.lancey;
 
 import net.fabricmc.api.ModInitializer;
+import net.superdog.lancey.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,8 @@ public class lanceyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
 
 	}
 }

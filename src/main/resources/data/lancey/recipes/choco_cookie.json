@@ -1,19 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "lancey:chocolate"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    }
-  ],
-  "result": {
-    "count": 4,
-    "item": "lancey:choco_cookie"
-  }
+"type": "minecraft:crafting_shaped",
+"pattern": [
+"   ",
+"#x#",
+"   "
+
+],
+"key": {
+"#":  {
+"item": "minecraft:wheat"
+},
+"x":  {
+"item": "lancey:chocolate"
+}
+},
+"result": {
+"count": 8,
+"item": "lancey:choco_cookie"
+}
 }

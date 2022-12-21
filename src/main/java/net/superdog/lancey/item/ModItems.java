@@ -20,6 +20,11 @@ public class ModItems {
             new StewItem(new Item.Settings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build())),
             ModItemGroup.LANCEYS_MOD);
 
+    public static final Item CHOCO_COOKIE = registerItem(
+            "choco_cookie",
+            new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.1f).snack().build())),
+            ModItemGroup.LANCEYS_MOD);
+
 
     private static Item registerItem(String name, Item item, ItemGroup group) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));

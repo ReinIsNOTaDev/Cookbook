@@ -1,5 +1,7 @@
 {
   "item.lancey.chocolate": "Chocolate",
   "item.lancey.choco_ice_cream": "Chocolate Ice Cream",
-  "item.lancey.choco_cookie": "Chocolate Cookie"
+  "item.lancey.choco_cookie": "Chocolate Cookie",
+  "block.lancey.chocolate_block": "Block of Chocolate",
+  "itemGroup.lancey.chocolate": "Lancey's Mod"
 }

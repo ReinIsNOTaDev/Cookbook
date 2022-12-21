@@ -22,7 +22,7 @@ public class ModItems {
 
     public static final Item CHOCO_COOKIE = registerItem(
             "choco_cookie",
-            new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(3).saturationModifier(0.1f).snack().build())),
+            new Item(new Item.Settings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.1f).snack().build())),
             ModItemGroup.LANCEYS_MOD);
 
 

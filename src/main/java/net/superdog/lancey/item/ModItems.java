@@ -10,8 +10,8 @@ public class ModItems {
     public static final Item CHOCOLATE = registerItem("chocolate",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build()).group(ModItemGroup.LANCEYS_MOD)));
 
-    public static final Item CHOCO_ICE_CREAM = registerItem("choco_ice_cream",
-            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(6).saturationModifier(0.4f).build()).group(ModItemGroup.LANCEYS_MOD)));
+    public static final Item ICE_CREAM = registerItem("ice_cream",
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(8).saturationModifier(0.5f).build()).group(ModItemGroup.LANCEYS_MOD)));
 
     public static final Item CHOCO_COOKIE = registerItem("choco_cookie",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.1f).snack().build()).group(ModItemGroup.LANCEYS_MOD)));

@@ -10,9 +10,11 @@
     },
     {
       "item": "minecraft:milk_bucket"
+    },    {
+      "item": "minecraft:sweet_berries"
     }
   ],
   "result": {
-    "item": "lancey:choco_ice_cream"
+    "item": "lancey:ice_cream"
   }
 }

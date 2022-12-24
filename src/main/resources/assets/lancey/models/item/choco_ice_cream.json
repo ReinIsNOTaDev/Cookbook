@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "lancey:item/ice_cream"
+    "layer0": "lancey:item/choco_ice_cream"
   }
 }

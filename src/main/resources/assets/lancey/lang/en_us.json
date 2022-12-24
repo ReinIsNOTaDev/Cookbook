@@ -1,6 +1,9 @@
 {
   "item.lancey.chocolate": "Chocolate",
-  "item.lancey.ice_cream": "Ice Cream",
+  "item.lancey.mixed_ice_cream": "Mixed Ice Cream",
+  "item.lancey.choco_ice_cream": "Chocolate Ice Cream",
+  "item.lancey.sweet_berry_ice_cream": "Sweet Berry Ice Cream",
+  "item.lancey.creamy_ice_cream": "Creamy Ice Cream",
   "item.lancey.choco_cookie": "Chocolate Cookie",
   "block.lancey.chocolate_block": "Block of Chocolate",
   "itemGroup.lancey.chocolate": "Lancey's Mod"

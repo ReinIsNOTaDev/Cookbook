@@ -7,6 +7,7 @@ import net.minecraft.util.registry.Registry;
 import net.superdog.lancey.lanceyMod;
 
 public class ModItems {
+    //test
     public static final Item CHOCOLATE = registerItem("chocolate",
             new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build()).group(ModItemGroup.LANCEYS_MOD)));
 

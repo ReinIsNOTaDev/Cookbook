@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "cookbook:block/chocolate_block" }
+  }
+}

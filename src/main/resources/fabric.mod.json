@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "lancey",
+  "id": "cookbook",
   "version": "${version}",
 
-  "name": "Lancey's Mod",
+  "name": "Cookbook",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Super"
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.superdog.lancey.lanceyMod"
+      "net.superdog.cookbook.cookbookMod"
     ],
     "client": [
-      "net.superdog.lancey.lanceyClient"
+      "net.superdog.cookbook.cookbookClient"
     ]
   },
   "mixins": [
-    "lancey.mixins.json"
+    "cookbook.mixins.json"
   ],
 
   "depends": {

@@ -1,0 +1,21 @@
+{
+"type": "minecraft:crafting_shaped",
+"pattern": [
+"   ",
+"#x#",
+"   "
+
+],
+"key": {
+"#":  {
+"item": "minecraft:wheat"
+},
+"x":  {
+"item": "cookbook:chocolate"
+}
+},
+"result": {
+"count": 8,
+"item": "cookbook:choco_cookie"
+}
+}

@@ -3,6 +3,8 @@
   "item.cookbook.ice_cream": "Mixed Ice Cream",
   "item.cookbook.choco_cookie": "Chocolate Cookie",
   "item.cookbook.dough": "Dough",
+  "item.cookbook.scrambled_eggs": "Scrambled Eggs",
+  "item.cookbook.fried_egg": "Fried Egg",
   "block.cookbook.chocolate_block": "Block of Chocolate",
   "itemGroup.cookbook.chocolate": "Cookbook"
 }

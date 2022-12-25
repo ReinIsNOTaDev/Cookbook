@@ -15,7 +15,7 @@ import net.superdog.cookbook.cookbookMod;
 
 public class ModBlocks {
     public static final Block CHOCOLATE_BLOCK = registerBlock("chocolate_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4f)), ModItemGroup.cookbookS_MOD);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f)), ModItemGroup.COOKBOOK_MOD);
 
 
 

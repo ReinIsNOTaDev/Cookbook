@@ -8,13 +8,16 @@ import net.superdog.cookbook.cookbookMod;
 
 public class ModItems {
     public static final Item CHOCOLATE = registerItem("chocolate",
-            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build()).group(ModItemGroup.cookbookS_MOD)));
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).build()).group(ModItemGroup.COOKBOOK_MOD)));
 
     public static final Item MIXED_ICE_CREAM = registerItem("ice_cream",
-            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).build()).group(ModItemGroup.cookbookS_MOD)));
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).build()).group(ModItemGroup.COOKBOOK_MOD)));
 
     public static final Item CHOCO_COOKIE = registerItem("choco_cookie",
-            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.1f).snack().build()).group(ModItemGroup.cookbookS_MOD)));
+            new Item(new FabricItemSettings().food(new FoodComponent.Builder().hunger(4).saturationModifier(0.1f).snack().build()).group(ModItemGroup.COOKBOOK_MOD)));
+
+    public static final Item DOUGH = registerItem("dough",
+            new Item(new FabricItemSettings().group(ModItemGroup.COOKBOOK_MOD)));
 
 
     private static Item registerItem(String name, Item item) {

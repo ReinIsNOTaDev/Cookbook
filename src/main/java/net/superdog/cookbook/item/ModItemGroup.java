@@ -7,6 +7,6 @@ import net.minecraft.util.Identifier;
 import net.superdog.cookbook.cookbookMod;
 
 public class ModItemGroup {
-    public static final ItemGroup cookbookS_MOD = FabricItemGroupBuilder.build(
+    public static final ItemGroup COOKBOOK_MOD = FabricItemGroupBuilder.build(
             new Identifier(cookbookMod.MOD_ID, "chocolate"), () -> new ItemStack(ModItems.CHOCOLATE));
 }
